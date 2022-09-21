@@ -1,6 +1,7 @@
 import React from 'react'
 import imgSPA from '../assets/imgSPA.png';
 import Ecommerce from '../assets/Ecommerce.png';
+import WeatherApp from '../assets/weatherapp.png';
 
 const Work = () => {
 return (
@@ -45,6 +46,21 @@ return (
                             </a>
                             <a href="https://github.com/FranciscoMastropierro/PG-SoyHenry">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                style={{backgroundImage:`url(${WeatherApp})` }}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Weather App
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://weather-app-ojedamartin.vercel.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Demo</button>
                             </a>
                         </div>
                     </div>
